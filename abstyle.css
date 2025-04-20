@@ -1,0 +1,84 @@
+@font-face {
+    font-family: arimo reg;
+    src: url(./static/Arimo-Regular.ttf);
+}
+#title{
+    display: flex;
+    justify-content: center;
+    font-family: "arimo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    flex-wrap: nowrap;
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding-top: 0;
+
+}
+
+
+.ab-container{
+height: 100vh;
+display: grid;
+grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+grid-template-rows: 1fr 2fr 2fr 2fr 1fr;
+gap: 10px;
+text-decoration: none;
+}   
+.grid-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    border-radius: 25px;
+}
+div .txt{
+    text-decoration: none;
+    font-family: "arimo reg";
+    color: blueviolet;
+    font-size: 2rem;
+}
+.text-vl{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(220, 220, 252);
+    height: 300px;
+    width: 300px;
+    border-radius: 25px;
+}
+.mvc-container{
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr 2.5fr 4fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.Core{
+    grid-row: span 3;
+}
+.pitem-txt{
+    font-family: "arimo reg";
+    font-size: 1.25rem;
+    text-align: justify;
+}
+.pitem-title{
+    font-family: "arimo reg";
+    font-size: 1.25rem;
+    text-align: justify;
+    font-weight: bolder;
+
+}
+.pitem-italic{
+    font-style: italic;
+    font-family: "arimo reg";
+    font-size: 1.25rem;
+    text-align: center;
+    font-weight: bold;
+}
+.mandate-container{
+    margin: 50px;
+}
